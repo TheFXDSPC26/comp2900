@@ -1,4 +1,4 @@
 # comp2900
 Curso de __Estructura De Datos__ \
-## _Autor Felipe Diaz Soto_
+Autor: _Felipe Diaz Soto_
 
