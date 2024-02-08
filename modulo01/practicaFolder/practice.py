@@ -1,3 +1,18 @@
-birth_year = int(input("Enter your birth year: "))
-age = 2024-birth_year
-print(f'Your age is {age}')
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+operator = input("Enter operator sign to choose math operation: ")
+
+
+if (operator == '+'):
+    print(f'Sum is {num1+num2}')
+elif (operator == '-'):
+    print(f'Difference is {num1-num2}')
+elif (operator == '*'):
+    print(f'Product is {num1*num2}')
+elif (operator == '/'):
+    print(f'Division is {num1/num2}')
+else :
+    print('Invalid operator')
+
+    
