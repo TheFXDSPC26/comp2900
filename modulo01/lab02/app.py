@@ -1,4 +1,4 @@
 mensaje = input('Entre su nombre: ')
-edad = int(input('Entre su edad: '))
+gpa = float(input('Entre su GPA: '))
 
-print(f'Hola {mensaje}!!!, tu edad es {edad}')
+print(f'Hola {mensaje}!!!, tu GPA es {gpa}')
