@@ -1,7 +1,5 @@
-age = 24
-weight = 178.5
-namePerson1 = 'Felipe Diaz'
-isMale = True
+num1 = int(input('Type first number '))
+num2 = input('Type second number ')
+num2= int(num2)
 
-print(f'My name is {namePerson1}.\nI am {age} years old, weight approximately {weight} pounds, and it is {isMale} that I am a man.')
-   
+print(num1+num2)
