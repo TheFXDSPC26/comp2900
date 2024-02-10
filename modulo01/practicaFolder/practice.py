@@ -1,32 +1,18 @@
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+enterString = input('S to go to settings, E to exit, V to show program version, A to show about information: ')
 
-operator = input("Enter operator sign to choose math operation (e to exit): ")
+while (enterString !='E'):
 
-while (operator != 'e'):
-
-    if (operator == '+'):
-        print(f'Sum is {num1+num2}')
-        num1 = int(input("Enter first number: "))
-        num2 = int(input("Enter second number: "))
-        operator = input("Enter operator sign to choose math operation (e to exit): ")
-    elif (operator == '-'):
-        print(f'Difference is {num1-num2}')
-        num1 = int(input("Enter first number: "))
-        num2 = int(input("Enter second number: "))
-        operator = input("Enter operator sign to choose math operation (e to exit): ")
-    elif (operator == '*'):
-        print(f'Product is {num1*num2}')
-        num1 = int(input("Enter first number: "))
-        num2 = int(input("Enter second number: "))
-        operator = input("Enter operator sign to choose math operation (e to exit): ")
-    elif (operator == '/'):
-        print(f'Division is {num1/num2}')
-        num1 = int(input("Enter first number: "))
-        num2 = int(input("Enter second number: "))
-        operator = input("Enter operator sign to choose math operation (e to exit): ")
-    else :
-        print('Invalid operator')
-        operator = input("Enter operator sign to choose math operation (e to exit): ")
-
-    
+    if (enterString == 'S' or enterString == 's'):
+            print(f'No settings to change')
+            enterString = input('S to go to settings, E to exit, V to show program version, A to show about information: ')
+    elif (enterString == 'E' or enterString == 'e'):
+            print(f'Exiting program')   
+    elif (enterString == 'V' or enterString == 'v'):
+            print(f'Program version is 1.29.3')
+            enterString = input('S to go to settings, E to exit, V to show program version, A to show about information: ')
+    elif (enterString == 'A'):
+            print(f'Sample program version 1.29.3 \nCopyright 2024 by Elliot Productions. \nAll rights reserved.')
+            enterString = input('S to go to settings, E to exit, V to show program version, A to show about information: ')
+    else:
+            print('Invalid option selected')
+            enterString = input('S to go to settings, E to exit, V to show program version, A to show about information: ')
