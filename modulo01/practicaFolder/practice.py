@@ -1,5 +1,4 @@
-num1 = int(input('Type first number '))
-num2 = input('Type second number ')
-num2= int(num2)
+def saludo(mensaje):
+    print(f"Hola!, {mensaje}")
 
-print(num1+num2)
+    print(f'{saludo("Mundo")}')
