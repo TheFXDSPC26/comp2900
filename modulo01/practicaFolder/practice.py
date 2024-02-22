@@ -1,5 +1,7 @@
-def saludo(mensaje="Mundo", segMensaje="Lindo"):
-    print(f"Hola {mensaje} {segMensaje}")
+def saludo(mensaje="Mundo"):
+    print('Hola')
+    print(f'{mensaje}')
 
 
-saludo("Amigo")
+saludo()
+saludo('John Doe')
