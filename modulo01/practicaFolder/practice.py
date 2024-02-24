@@ -21,4 +21,4 @@ def div(x,y):
 add(9,6)
 sub(7,8)
 mul(7,9)
-div(2,0.000001)
+div(2,1)
