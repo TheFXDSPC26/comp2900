@@ -1,24 +1,8 @@
-def add(x,y):
-    vex = print(f'{x+y}')
+def create_name(first, last):
+    first = first.capitalize()
+    last = last.capitalize()
+    return first + " " + last
 
-    return vex
+full_name = create_name("felipe","diaz")
 
-def sub(x,y):
-    vex = print(f'{x-y}')
-
-    return vex
-
-def mul(x,y):
-    vex = print(f'{x*y}')
-
-    return vex
-
-def div(x,y):
-    vex = print(f'{x/y}')
-
-    return vex
-
-add(9,6)
-sub(7,8)
-mul(7,9)
-div(2,1)
+print(full_name)
