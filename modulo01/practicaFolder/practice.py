@@ -1,9 +1,5 @@
-def saludos(mensaje="Mundo"):
-    print(f'Hola {mensaje}')
+def display_invoice(username, amount, due_date):
+    print(f'{username}')
+    print(f'Your bill of ${amount:.2f} is due: {due_date}')
 
-def saludo(x, y):
-    print(f'Hola {x}, tu tienes {y}')  
-
-saludo('Felipe', 25)
-saludo('Kevin', 17)
-saludo('Luis', 56)
+display_invoice('FXDS', 28.09, "01/01")
