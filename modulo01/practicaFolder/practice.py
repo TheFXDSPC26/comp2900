@@ -1,3 +1,2 @@
-c = "python is great"
-print(c.find('a'))
-print(c)
+c = "python for beginners"
+print(c.replace('for', '4'))
