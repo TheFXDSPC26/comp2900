@@ -1,5 +1,24 @@
-def display_invoice(username, amount, due_date):
-    print(f'{username}')
-    print(f'Your bill of ${amount:.2f} is due: {due_date}')
+def add(x,y):
+    vex = print(f'{x+y}')
 
-display_invoice('FXDS', 28.09, "01/01")
+    return vex
+
+def sub(x,y):
+    vex = print(f'{x-y}')
+
+    return vex
+
+def mul(x,y):
+    vex = print(f'{x*y}')
+
+    return vex
+
+def div(x,y):
+    vex = print(f'{x/y}')
+
+    return vex
+
+add(9,6)
+sub(7,8)
+mul(7,9)
+div(2,0.000001)
