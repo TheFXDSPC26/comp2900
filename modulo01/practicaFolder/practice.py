@@ -1,2 +1,3 @@
-c = "python for beginners"
-print(c.replace('for', '4'))
+x= 3 > 2
+
+print(x)
