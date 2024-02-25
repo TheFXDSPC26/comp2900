@@ -1,6 +1,6 @@
-i = 0
+nombres = ['Kevin','Felipe','Luis','Marienelly']
 
-while not i>5:
-  
-    print(i)
+i=0
+while i<4:
+    print(nombres[i])
     i+=1
