@@ -12,15 +12,17 @@ if convEnter == 'C':
     if uConv == 'K':
         weightEnter = weightEnter * 0.453592
         print(f'Weight in KG is {weightEnter} kg')
+        exit()
     elif uConv == 'L':
         weightEnter = weightEnter * 2.20462
         print(f'Weight in Lbs is {weightEnter} lbs')
+        exit()
     else:
         print('Invalid option selected')
 
 else:
-   optSelec =  input('Is the typed weight in Lbs(L) or Kg(K)?')
-   optSelec.upper()
+   optSelec = input('Is the typed weight in Lbs(L) or Kg(K)? ')
+   optSelec = optSelec.upper()
 
 if optSelec == 'K':
         print(f'Weight in KG is {weightEnter} kg')
