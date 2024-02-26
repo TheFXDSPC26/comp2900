@@ -1,3 +1,2 @@
-nombres = ['Kevin','Felipe','Luis','Marienelly']
-
-print(nombres[0:3])
+nom = 'Felipe Diaz Soto'
+print(nom[1:-1])
