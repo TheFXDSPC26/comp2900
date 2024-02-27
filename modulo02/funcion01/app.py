@@ -1,5 +1,3 @@
-
-
 def age(curYear, birYear):
     global currentYear
     global birthYear
