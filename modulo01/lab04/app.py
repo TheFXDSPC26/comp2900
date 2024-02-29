@@ -1,16 +1,15 @@
 import array
 
-arr = array.array('i')
+aNumber = array.array('i')
 
 for i in range(0,4):
     inNum = int(input('Enter number: '))
-    arr.append(inNum)
-    
+    aNumber.append(inNum)
 for i in range(4):
-        print(f'Indice {i} - Valor {arr[i]}')
+        print(f'Indice {i} - Valor {aNumber[i]}')
 
-for n in arr:
+for n in aNumber:
       print(f'Valor {n}')
 
-for i in range(len(arr)):
+for i in range(len(aNumber)):
       print(f'Valor {i}')
