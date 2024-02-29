@@ -11,3 +11,6 @@ for i in range(4):
 
 for n in arr:
       print(f'Valor {n}')
+
+for i in range(len(arr)):
+      print(f'Valor {i}')
