@@ -1,13 +1,8 @@
-from array import array
+from array import *
 
-arr = array('l')
+arr = array('d', [1,2,3,9.7,2])
+arr.extend(1)
 
-for i in range(10):
-    arr.append(i)
 
-array_string = arr.tobytes()
-print(array_string)
-
-arr2 = array('l')
-arr2.frombytes(array_string)
-print(arr2)
+for i in range(9):
+    print(arr[i])
