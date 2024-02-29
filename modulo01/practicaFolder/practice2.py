@@ -7,7 +7,8 @@ while tries <3:
         exit()
     else:
         tries+=1
-        if tries == 2:
+        if tries == 3:
             print('You lose')
+            exit()
         else:
             print('\nTry again')        
