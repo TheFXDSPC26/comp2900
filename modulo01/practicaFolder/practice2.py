@@ -1,8 +1,2 @@
-from array import *
+guessNum = int(input('Welcome to the number guessing game!\nThe correct number is between 1 to 10\n\nEnter your number to get started: '))
 
-arr = array('d', [1,2,3,9.7,2])
-arr.extend(1)
-
-
-for i in range(9):
-    print(arr[i])
