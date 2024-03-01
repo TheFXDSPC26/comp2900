@@ -5,6 +5,7 @@ aNumber = array.array('i')
 for i in range(0,4):
     inNum = int(input('Enter number: '))
     aNumber.append(inNum)
+    
 for i in range(4):
         print(f'Indice {i} - Valor {aNumber[i]}')
 
