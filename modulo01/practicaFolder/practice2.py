@@ -20,5 +20,4 @@ while True:
                         print('Closing program')
                         break
                 else:
-                        print("I don't undestand that")
-                
+                        print("I don't undestand that")              
