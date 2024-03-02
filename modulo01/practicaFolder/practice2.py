@@ -1,39 +1,24 @@
-print('Welcome to the Car Game! Type help for a list of commands to get started: ')
-i = 0
-while i<999:
-    z=1
-    y=2
-    c=0    
-    enterCommand = input('Type choice\n\n(Input) to type or (help) for list of commands: ')
-    if enterCommand == 'help':      
-            commandProgram = input('Start - start car\n\nStop - stop car\n\nQuit - quit program: ')
-            commandProgram = commandProgram.upper()
-            if commandProgram == 'START':
-                    i = z
-            elif commandProgram == 'STOP':
-                    i = y
-            else:
-                    i = c
-            if i == 1:
-                    print('Car started!')
-            elif i == 2:
-                    print('Car stopped!')
-            else:
-                print('Closing program')
-                exit()
-    else:
-            commandProgram = input('> ')
-            commandProgram = commandProgram.upper()
-            if commandProgram == 'START':
-                    i = z
-            elif commandProgram == 'STOP':
-                    i = y
-            else:
-                    i = c
-            if i == 1:
-                    print('Car started!')
-            elif i == 2:
-                    print('Car stopped!')
-            else:
-                print('Closing program')
-                exit()
+enterCommand = ''
+started = ""
+while True:
+                enterCommand = input('\n\nType command: ').lower()
+                if enterCommand == 'help':
+                        enterCommand = print('\n\nStart - start car\n\nStop - stop car\n\nQuit - quit program\n\n')
+                elif enterCommand == 'start':
+                        if started != True:
+                                started = True
+                                print('Car started!')
+                        elif started == True:
+                                print('Car has been already started!')
+                elif enterCommand == 'stop':
+                        if started == True:
+                                started = False
+                                print('Car stopped!')
+                        elif started == False:
+                                print('Car has been already stopped!')
+                elif enterCommand == 'quit':
+                        print('Closing program')
+                        break
+                else:
+                        print("I don't undestand that")
+                
