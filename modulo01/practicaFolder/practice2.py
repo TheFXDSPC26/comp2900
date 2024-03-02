@@ -1,9 +1,10 @@
 import array
 
-arr = array.array('d',[1,2,3])
+arr = array.array('d')
  
 for item in 'Python':
     print(item)
 
-for x in arr:
-    print(x)
+for i in arr:
+     numVal = input('Type any number: ')
+     arr[i] = arr.append(numVal)
