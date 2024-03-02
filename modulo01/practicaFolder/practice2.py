@@ -1,7 +1,9 @@
 import array
 
-arr = array.array(1,2,3)
-print(arr)   
+arr = array.array('d',[1,2,3])
+ 
 for item in 'Python':
-    print(item)  
+    print(item)
 
+for x in arr:
+    print(x)
