@@ -16,6 +16,8 @@ while True:
                                 print('Car stopped!')
                         elif started == False:
                                 print('Car has been already stopped!')
+                        else:
+                                print('Car has not been started')
                 elif enterCommand == 'quit':
                         print('Closing program')
                         break
