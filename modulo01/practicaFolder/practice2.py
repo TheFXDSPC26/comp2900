@@ -1,15 +1,13 @@
-import array
+x = int(input('How many names would you like to store in the main array?: '))
 
-arr = array.array('d')
-
-x = int(input('How many numbers would you like to store in the main array?: '))
+strList = []
 
 for i in range(x):
-     numVal = float(input('Type any number: '))
-     arr.append(numVal)
+     nameVal = input('Type any name: ')
+     strList.append(nameVal)
 
 for y in range(x):
-       print(f'Position {y} = {arr[y]}') 
+       print(f'Position {y} = {strList[y]}') 
 
-for i in range(len(arr)):
-      print(arr[i])
+for i in range(len(strList)):
+      print(strList[i])
